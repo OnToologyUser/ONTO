@@ -1,0 +1,33 @@
+{
+  "@context" : {
+    "likes" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes",
+      "@type" : "@id"
+    },
+    "dislikes" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes",
+      "@type" : "@id"
+    },
+    "Food" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"
+    },
+    "Jack" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack"
+    },
+    "Spaghetti" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti"
+    },
+    "People" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"
+    },
+    "Terry" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry"
+    },
+    "Maggie" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie"
+    },
+    "Pizza" : {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza"
+    }
+  }
+}

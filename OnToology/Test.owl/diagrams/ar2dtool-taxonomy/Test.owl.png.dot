@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Terry" "base:Spaghetti" "base:Pizza" "base:People" "base:Maggie" "base:Jack" "base:Food" ; /*classes style*/
+	"base:Maggie" -> "base:People" [ label = "rdfs:subClassOf" ];
+	"base:Spaghetti" -> "base:Food" [ label = "rdfs:subClassOf" ];
+	"base:Terry" -> "base:People" [ label = "rdfs:subClassOf" ];
+	"base:Pizza" -> "base:Food" [ label = "rdfs:subClassOf" ];
+	"base:Jack" -> "base:People" [ label = "rdfs:subClassOf" ];
+
+}

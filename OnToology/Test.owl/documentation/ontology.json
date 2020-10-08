@@ -1,0 +1,73 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack"
+    }, {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie"
+    }, {
+      "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti"
+  } ]
+} ]

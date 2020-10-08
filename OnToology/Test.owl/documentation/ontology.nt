@@ -1,0 +1,91 @@
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food> .
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,15 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Terry" "base:Spaghetti" "base:Pizza" "base:Maggie" "base:Jack" ; /*classes style*/
+	"NULL" -> "-7c812cdc:175069370a6:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "base:Maggie" [ label = "rdf:first" ];
+	"NULL" -> "-7c812cdc:175069370a6:-7ffb" [ label = "owl:members" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "base:Terry" [ label = "rdf:first" ];
+	"NULL" -> "-7c812cdc:175069370a6:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "base:Jack" [ label = "rdf:first" ];
+	"base:Maggie" -> "base:Pizza" [ label = "base:dislikes" ];
+	"base:Jack" -> "base:Spaghetti" [ label = "base:likes" ];
+
+}
