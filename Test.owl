@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#"
+     xml:base="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42"
+     xmlns:g="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#dislikes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#likes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Pizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Spaghetti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#People"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Jack"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Maggie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tobibooty/ontologies/2020/8/untitled-ontology-42#Terry"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
